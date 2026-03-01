@@ -31,7 +31,7 @@ body {
 
 </head>
 <body>
-
+<jsp:include page="header.jsp"/>
 	<%
 	List<Teacher> users = (List<Teacher>) request.getAttribute("teachers");
 	Integer currentUserId = (Integer) session.getAttribute("userId");

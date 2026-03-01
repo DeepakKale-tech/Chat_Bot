@@ -27,9 +27,11 @@ body {
 .hidden-section {
 	display: none;
 }
+
 </style>
 </head>
 <body>
+<jsp:include page="header.jsp"/>
 	<div class="text-center text-white mb-4">
 		<h1 class="fw-bold display-5">Welcome to Student - Teacher Chat Module Applicataion</h1>
 	</div>

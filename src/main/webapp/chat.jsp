@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </head>
 
 <body>
-
+<jsp:include page="header.jsp"/>
 <div class="chat-container">
 
     <div class="chat-header d-flex justify-content-between align-items-center">

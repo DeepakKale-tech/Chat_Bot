@@ -35,7 +35,7 @@ body {
 </head>
 
 <body>
-
+<jsp:include page="header.jsp"/>
 	<div class="card shadow-lg dashboard-card text-center">
 
 		<h3 class="fw-bold mb-3">Student Dashboard</h3>
