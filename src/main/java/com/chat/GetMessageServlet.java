@@ -106,8 +106,17 @@ public class GetMessageServlet extends HttpServlet {
 	            
 	            String formattedRole = dbSenderRole.substring(0, 1).toUpperCase() + dbSenderRole.substring(1);
 	            
-	            out.println(formattedRole + ": " + senderName + " - "
-	                    + message + "<br>");
+	            boolean isMe = (dbSenderId == senderId && dbSenderRole.equals(senderRole));
+
+	            String bubbleClass = isMe ? "sender" : "receiver";
+	            String alignment = isMe ? "text-end" : "text-start";
+
+	            out.println("<div class='" + alignment + "'>");
+	            out.println("<div class='message " + bubbleClass + "'>");
+	            out.println("<small><strong>" + senderName + " (" + formattedRole + ")</strong></small><br>");
+	            out.println(message);
+	            out.println("</div>");
+	            out.println("</div>");
 	        }
 
 	        con.close();
