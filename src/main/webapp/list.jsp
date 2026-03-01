@@ -82,6 +82,6 @@ body {
 
 	<!-- Bootstrap JS -->
 	<script src="js/bootstrap.bundle.min.js"></script>
-
+<jsp:include page="footer.jsp"/>
 </body>
 </html>

@@ -88,6 +88,6 @@ body {
 			document.getElementById("roleSelection").style.display = "block";
 		}
 	</script>
-
+<jsp:include page="footer.jsp"/>
 </body>
 </html>
