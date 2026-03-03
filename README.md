@@ -133,7 +133,7 @@ Run application
 
 ### 💬 Chat Interface
 <img src="Screenshots/Student_chat.png" width="600">
-<img src="Screenshots/Teacher_chat.png" width="600">
+<img src="Screenshots/Teacher_Chat.png" width="600">
 
 
 👨‍💻 Author
