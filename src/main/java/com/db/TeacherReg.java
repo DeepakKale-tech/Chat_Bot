@@ -57,6 +57,8 @@ public class TeacherReg extends HttpServlet {
 		{
 			e.printStackTrace();
 		}
+		
+		response.sendRedirect("TeacherLogin.jsp");
 	}
 
 }

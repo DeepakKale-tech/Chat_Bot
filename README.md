@@ -117,6 +117,25 @@ Deploy on Apache Tomcat
 
 Run application
 
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+<img src="Screenshots/HomePage.png" width="600">
+
+### 🔐 Login Page
+<img src="Screenshots/Student_Login.png" width="600">
+<img src="Screenshots/Teacher_Login.png" width="600">
+
+### 📊 Dashboard
+<img src="Screenshots/Student_Dashboard.png" width="600">
+<img src="Screenshots/Teacher_Dashboard.png" width="600">
+
+
+### 💬 Chat Interface
+<img src="Screenshots/Student_chat.png" width="600">
+<img src="Screenshots/Teacher_chat.png" width="600">
+
+
 👨‍💻 Author
 
 Deepak Kale

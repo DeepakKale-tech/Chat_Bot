@@ -57,6 +57,7 @@ public class StudentReg extends HttpServlet {
 		{
 			e.printStackTrace();
 		}
+		response.sendRedirect("StudentLogin.jsp");
 	}
 
 }
